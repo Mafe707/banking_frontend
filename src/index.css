@@ -1,5 +1,31 @@
-{
-  margin 0;
-  padding 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.hero-section {
+  background-color: #2e8cb8;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-content h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #2e8cb8;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
 }
